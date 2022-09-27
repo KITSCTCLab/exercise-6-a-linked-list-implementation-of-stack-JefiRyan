@@ -30,9 +30,8 @@ class Stack:
     """
     temp = self.head
     while temp:
-      print(temp.data,end="=>" if temp.next else "")
+      print(temp.data,end="=>")
       temp = temp.next
-    print(None)
 
 
 # Do not change the following code
