@@ -32,6 +32,7 @@ class Stack:
     while temp:
       print(temp.data,end="=>")
       temp = temp.next
+    print(temp)
 
 
 # Do not change the following code
